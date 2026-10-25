@@ -154,7 +154,7 @@ MonoBehaviour:
   - {fileID: -4227375202993951531}
   - {fileID: 2977859613567944806}
   - {fileID: 6531984150788116348}
-  - {fileID: 7419626264110156671}
+  - {fileID: 7368306711649642914}
   - {fileID: 2395083409912648663}
   - {fileID: -9127951406310028473}
   - {fileID: 4941068678620596942}
@@ -165,7 +165,7 @@ MonoBehaviour:
   - {fileID: 8540687534885414734}
   - {fileID: -4214824912614432818}
   - {fileID: -4699948927881033193}
-  - {fileID: 7259388420505252550}
+  - {fileID: 6947567239642111173}
   - {fileID: -5182249644982903820}
   - {fileID: 2118834946991613599}
   - {fileID: 5636713027334325008}
@@ -1450,6 +1450,28 @@ MonoBehaviour:
   targetOpenXRApiVersion: 
   required: 0
   customRuntimeLoaderName: 
+--- !u!114 &-758367135872683163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d3bf61b014a48a2b7564c61da9d7ad, type: 3}
+  m_Name: AndroidXRPerformanceMetrics Standalone
+  m_EditorClassIdentifier: Unity.XR.AndroidOpenXR::UnityEngine.XR.OpenXR.Features.Android.AndroidXRPerformanceMetrics
+  m_enabled: 0
+  nameUi: Android XR Performance Metrics
+  version: 0.1.0
+  featureIdInternal: com.unity.openxr.feature.androidxr-performance-metrics
+  openxrExtensionStrings: XR_ANDROID_performance_metrics
+  company: Unity Technologies
+  priority: 0
+  targetOpenXRApiVersion: 
+  required: 0
+  customRuntimeLoaderName: 
 --- !u!114 &-465973594361617059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1989,7 +2011,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12d3bf61b014a48a2b7564c61da9d7ad, type: 3}
-  m_Name: AndroidXRPerformanceMetrics Standalone
+  m_Name: AndroidXRPerformanceMetrics Android
   m_EditorClassIdentifier: Unity.XR.AndroidOpenXR::UnityEngine.XR.OpenXR.Features.Android.AndroidXRPerformanceMetrics
   m_enabled: 0
   nameUi: Android XR Performance Metrics
@@ -2254,7 +2276,7 @@ MonoBehaviour:
   features:
   - {fileID: 5877072536025250115}
   - {fileID: 8371472405665277754}
-  - {fileID: 3371019412502219301}
+  - {fileID: -758367135872683163}
   - {fileID: -6593559329071622466}
   - {fileID: -903989475284121449}
   - {fileID: -6053044737243724639}
