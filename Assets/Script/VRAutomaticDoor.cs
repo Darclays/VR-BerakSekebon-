@@ -41,7 +41,8 @@ public class VRAutomaticDoor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Jika player masuk ke trigger, buka pintu
-    if (other.CompareTag("Player") || other.CompareTag("MainCamera"))        {
+        if (other.CompareTag("Player"))
+        {
             if (moveCoroutine != null) StopCoroutine(moveCoroutine);
             moveCoroutine = StartCoroutine(MoveDoors(leftOpenPos, rightOpenPos));
         }
@@ -50,7 +51,8 @@ public class VRAutomaticDoor : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         // Jika player keluar dari trigger, tutup pintu
-    if (other.CompareTag("Player") || other.CompareTag("MainCamera"))        {
+        if (other.CompareTag("Player"))
+        {
             if (moveCoroutine != null) StopCoroutine(moveCoroutine);
             moveCoroutine = StartCoroutine(MoveDoors(leftClosedPos, rightClosedPos));
         }
